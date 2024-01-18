@@ -20,7 +20,6 @@ body{
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%);
-    color: white;
 }
 #keys{
     display: grid;
@@ -40,17 +39,5 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background-color: hsl(0, 0%, 40%);
-}
-button:active{
-    background-color: hsl(0, 0%, 50%)
-}
-.operator-btn{
-    background-color: hsl(35, 100%, 55%)
-}
-.operator-btn:hover{
-    background-color: hsl(35, 100%, 65%)
-}
-.operator-btn:active{
-    background-color: hsl(35, 100%, 75%)
+    background-color: hsl(0, 0%, 40%)
 }
