@@ -1,10 +1,9 @@
-body{
+/* body{
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-}
+} */
 #calculator{
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
@@ -12,14 +11,14 @@ body{
     max-width: 500px;
     overflow: hidden;
 }
-#display{
+/* #display{
     width: 100%;
     padding: 20px;
     font-size: 5rem;
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%);
-}
+} */
 #keys{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
