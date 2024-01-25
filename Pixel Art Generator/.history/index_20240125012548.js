@@ -17,7 +17,7 @@ let events = {
     },
     touch: {
         down: "touchstart",
-        move: "touchmove",
+        mobe: "touchmove",
         up: "touchend",
     },
 };
