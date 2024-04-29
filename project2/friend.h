@@ -5,7 +5,6 @@
 
 class Friend : public Person {
 public:
-    QString myResponse;
 
     Friend(const QString& name, const QString& location, const QString& time, const QString& relation);
     Friend(const QString& name, const QString& location, const QString& time);
@@ -13,9 +12,6 @@ public:
 
     ~Friend(){}
 
-    void response() {
-        myResponse = "Don't forget to text!";
-    }
 
 };
 

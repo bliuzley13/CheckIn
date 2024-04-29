@@ -6,15 +6,10 @@
 class Family : public Person {
 public:
 
-    QString myResponse;
-
+    Family(const QString& name, const QString& location, const QString& time, const QString& relation);
     Family(const QString& name, const QString& location, const QString& time);
 
     ~Family(){}
-
-    void response() {
-        myResponse = "Don't forget to call!";
-    }
 
 };
 

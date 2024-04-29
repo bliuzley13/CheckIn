@@ -4,8 +4,6 @@
 #include <QTableWidget>
 #include <QTableWidgetItem>
 #include "person.h"
-#include "family.h"
-#include "friend.h"
 
 
 void display(const std::vector<Person*>& list, QTableWidget* table) {

@@ -8,5 +8,4 @@ Family::Family(const QString& name, const QString& location, const QString& time
     setLocation(location);
     setTime(time);
     setRelation("Family");
-    response();
 }

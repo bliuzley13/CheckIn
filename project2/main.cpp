@@ -30,7 +30,7 @@ int main(int argc, char *argv[]) {
 
     while (true) {
         QString name = QInputDialog::getText(&window, "Input", "Enter name:");
-        if (name.isEmpty()) break; // Exit loop if no name is entered
+        if (name.isEmpty()) break;
 
         QString location = QInputDialog::getText(&window, "Input", "Enter timezone (NY: UTC-4, PST, CST):");
         if (location.isEmpty()) break;
@@ -59,7 +59,6 @@ int main(int argc, char *argv[]) {
     sortPeople(people);
     display(people, table);
 
-    // Configure and show the main window
     window.setLayout(layout);
     window.resize(800, 500);
     window.show();
